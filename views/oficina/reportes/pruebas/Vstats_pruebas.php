@@ -1,59 +1,230 @@
-<?php //004fb
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9HS0FknH4VrzkLRsyYdJzS21fx0CXujs
+<?php $this->load->view('./header'); ?>
+
+<!-- START CONTENT -->
+<style>
+    .select-css {
+        display: block;
+        font-size: 16px;
+        font-family: 'Arial', sans-serif;
+        /*font-weight: 400;*/
+        color: #444;
+        line-height: 1.3;
+        padding: .4em 1.4em .3em .8em;
+        width: 190px;
+        height: 35px;
+        max-width: 100%; 
+        box-sizing: border-box;
+        margin: 0;
+        border: 1px solid #aaa;
+        margin-top: 10px;
+
+        /*margin-left: 188px;*/
+        box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+        border-radius: .3em;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+            linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+        background-repeat: no-repeat, repeat;
+        background-position: right .7em top 50%, 0 0;
+        background-size: .65em auto, 100%;
+    }
+    .select-css::-ms-expand {
+        display: none;
+    }
+    .select-css:hover {
+        border-color: #888;
+    }
+    .select-css:focus {
+        border-color: #aaa;
+        box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+        box-shadow: 0 0 0 3px -moz-mac-focusring;
+        color: #222; 
+        outline: none;
+    }
+    .select-css option {
+        font-weight:normal;
+    }
+    /*
+        .table-wrapper {
+            width: 100%;
+            height: 500px;   
+            overflow: auto;
+            white-space: nowrap;
+        }*/
+</style>
+<section id="main-content" class=" ">
+    <section class="wrapper main-wrapper row">
+        <section class="box ">
+            <?php $this->load->view('./nav'); ?>
+            <div class="content-body">    
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <section class="box ">
+                            <header class="panel_header">
+                                <h2 class="title float-left">Informes de pruebas</h2>
+                            </header>
+                            <div class="content-body">  
+                                <div class="row">
+                                    <div class="col-12">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="1">
+                                                        <div class="form-group row">
+                                                            <label for="staticEmail" class="col-sm-4 col-form-label">Seleccione el reporte</label>
+                                                            <div class="col-sm-7">
+                                                                <select class="select-css" name='tipoinforme' id="tipoinforme">
+                                                                    <option disabled="disabled" selected="selected">Seleccione</option>
+                                                                    <option value="1">Sonometro</option>
+                                                                    <!--<option value="2">Gases</option>-->
+                                                                    <option value="3">Luces</option>
+                                                                    <option value="4">Frenos</option>
+                                                                    <option value="5">Suspension</option>
+                                                                    <option value="6">Alineador</option>
+                                                                    <option value="7">Taximetro</option>
+                                                                    <option value="8">Visual</option>
+                                                                    <option value="9">Termohigrometro</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="div-informe-sonmometro" style="display: none">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <header class="panel_header">
+                                                <h2 class="title float-left" id="nombre-informe"></h2>
+                                            </header>
+                                            <form action="<?php echo base_url(); ?>index.php/oficina/reportes/pruebas/Cpruebas/pruebasTipo" method="post">
+                                                <table class="table" >
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="2">Generar</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="row">
+                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
+                                                                        <label style="font-weight: bold; color: grey;" for="nombres">Fecha inicial<br/>
+                                                                            <input type="text" class="form-control datepicker" id="fechainicial" name="fechainicial" data-format="yyyy-mm-dd " autocomplete="off" style="margin-top: 10px">
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
+                                                                        <label style="font-weight: bold; color: grey;" for="nombres">Fecha final<br/>
+                                                                            <input type="text" class="form-control datepicker" id="fechafinal" name="fechafinal" data-format="yyyy-mm-dd " autocomplete="off" style="margin-top: 10px" >
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
+                                                                        <label style="font-weight: bold; color: grey" for="nombres">Tipo inspeccion<br/>
+                                                                            <select class="select-css" name='tipoinspeccion' id="tipoinspeccion">
+                                                                                <option value="1">Certificadas</option>
+                                                                                <option value="4444">Preventivas</option>
+                                                                                <option value="8888">Prueba libre</option>
+                                                                            </select>
+                                                                    </div>
+                                                                    <div id="divPresion" class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px; display: none">
+                                                                        <label style="font-weight: bold; color: grey" for="nombres">Presion de llanatas<br/>
+                                                                            <select class="select-css" name='presionLlantas' id="presionLlantas">
+                                                                                <option value="0">NO</option>
+                                                                                <option value="1">SI</option>
+                                                                            </select>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-lg-3 col-sm-3" >
+                                                                        <label style="font-weight: bold; color: black"></label>
+                                                                        <input type="hidden" id="tipoinformeval" name="tipoinformeval">
+                                                                        <input type="submit" name="generar"  class="btn btn-accent btn-block" onclick="showSuccess('Generando el informe, por favor espere.')" style="background-color: #393185;border-radius: 40px 40px 40px 40px; width: 180px"  value="Generar">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div>
+
+
+
+        <!-- MAIN CONTENT AREA ENDS -->
+    </section>
+</section>
+<!-- END CONTENT -->
+<?php $this->load->view('./footer'); ?>
+
+<script type="text/javascript">
+    $('#presionLlantas').change(function () {
+        var presionLlantas = $('#presionLlantas option:selected').attr('value');
+        if (presionLlantas == 1) {
+            Swal.fire({
+                icon: 'info',
+                title: 'Información',
+                html: '<div style="font-size: 15px">Usted selecciono la consulta con las presiones de inflado, se le recomienda no realizar la consulta cuando el cda este operando.</div>',
+                //footer: '<a href="">Why do I have this issue?</a>'
+            })
+        }
+    })
+    $('#tipoinforme').change(function () {
+        var tipoinforme = $('#tipoinforme option:selected').attr('value');
+        $('#tipoinformeval').val(tipoinforme);
+        document.getElementById("div-informe-sonmometro").style.display = '';
+        switch (tipoinforme) {
+            case '1':
+                $('#nombre-informe').html('Informe sonometro');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '2':
+                $('#nombre-informe').html('Informe gases');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '3':
+                $('#nombre-informe').html('Informe luces');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '4':
+                $('#nombre-informe').html('Informe frenos');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '5':
+                $('#nombre-informe').html('Informe suspension');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '6':
+                $('#nombre-informe').html('Informe alineador');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '7':
+                $('#nombre-informe').html('Informe taximetro');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            case '8':
+                $('#nombre-informe').html('Informe visual');
+                document.getElementById("divPresion").style.display = "";
+                break;
+            case '9':
+                $('#nombre-informe').html('Informe termohigrometro');
+                document.getElementById("divPresion").style.display = "none";
+                break;
+            default:
+
+                break;
+        }
+    });
+</script>
