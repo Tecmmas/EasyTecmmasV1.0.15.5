@@ -1,230 +1,59 @@
-<?php $this->load->view('./header'); ?>
-
-<!-- START CONTENT -->
-<style>
-    .select-css {
-        display: block;
-        font-size: 16px;
-        font-family: 'Arial', sans-serif;
-        /*font-weight: 400;*/
-        color: #444;
-        line-height: 1.3;
-        padding: .4em 1.4em .3em .8em;
-        width: 190px;
-        height: 35px;
-        max-width: 100%; 
-        box-sizing: border-box;
-        margin: 0;
-        border: 1px solid #aaa;
-        margin-top: 10px;
-
-        /*margin-left: 188px;*/
-        box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
-        border-radius: .3em;
-        -moz-appearance: none;
-        -webkit-appearance: none;
-        appearance: none;
-        background-color: #fff;
-        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-            linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
-        background-repeat: no-repeat, repeat;
-        background-position: right .7em top 50%, 0 0;
-        background-size: .65em auto, 100%;
-    }
-    .select-css::-ms-expand {
-        display: none;
-    }
-    .select-css:hover {
-        border-color: #888;
-    }
-    .select-css:focus {
-        border-color: #aaa;
-        box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-        box-shadow: 0 0 0 3px -moz-mac-focusring;
-        color: #222; 
-        outline: none;
-    }
-    .select-css option {
-        font-weight:normal;
-    }
-    /*
-        .table-wrapper {
-            width: 100%;
-            height: 500px;   
-            overflow: auto;
-            white-space: nowrap;
-        }*/
-</style>
-<section id="main-content" class=" ">
-    <section class="wrapper main-wrapper row">
-        <section class="box ">
-            <?php $this->load->view('./nav'); ?>
-            <div class="content-body">    
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-12">
-                        <section class="box ">
-                            <header class="panel_header">
-                                <h2 class="title float-left">Informes de pruebas</h2>
-                            </header>
-                            <div class="content-body">  
-                                <div class="row">
-                                    <div class="col-12">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th colspan="1">
-                                                        <div class="form-group row">
-                                                            <label for="staticEmail" class="col-sm-4 col-form-label">Seleccione el reporte</label>
-                                                            <div class="col-sm-7">
-                                                                <select class="select-css" name='tipoinforme' id="tipoinforme">
-                                                                    <option disabled="disabled" selected="selected">Seleccione</option>
-                                                                    <option value="1">Sonometro</option>
-                                                                    <!--<option value="2">Gases</option>-->
-                                                                    <option value="3">Luces</option>
-                                                                    <option value="4">Frenos</option>
-                                                                    <option value="5">Suspension</option>
-                                                                    <option value="6">Alineador</option>
-                                                                    <option value="7">Taximetro</option>
-                                                                    <option value="8">Visual</option>
-                                                                    <option value="9">Termohigrometro</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div id="div-informe-sonmometro" style="display: none">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <header class="panel_header">
-                                                <h2 class="title float-left" id="nombre-informe"></h2>
-                                            </header>
-                                            <form action="<?php echo base_url(); ?>index.php/oficina/reportes/pruebas/Cpruebas/pruebasTipo" method="post">
-                                                <table class="table" >
-                                                    <thead>
-                                                        <tr>
-                                                            <th colspan="2">Generar</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="row">
-                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
-                                                                        <label style="font-weight: bold; color: grey;" for="nombres">Fecha inicial<br/>
-                                                                            <input type="text" class="form-control datepicker" id="fechainicial" name="fechainicial" data-format="yyyy-mm-dd " autocomplete="off" style="margin-top: 10px">
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
-                                                                        <label style="font-weight: bold; color: grey;" for="nombres">Fecha final<br/>
-                                                                            <input type="text" class="form-control datepicker" id="fechafinal" name="fechafinal" data-format="yyyy-mm-dd " autocomplete="off" style="margin-top: 10px" >
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px">
-                                                                        <label style="font-weight: bold; color: grey" for="nombres">Tipo inspeccion<br/>
-                                                                            <select class="select-css" name='tipoinspeccion' id="tipoinspeccion">
-                                                                                <option value="1">Certificadas</option>
-                                                                                <option value="4444">Preventivas</option>
-                                                                                <option value="8888">Prueba libre</option>
-                                                                            </select>
-                                                                    </div>
-                                                                    <div id="divPresion" class="col-md-3 col-lg-3 col-sm-3" style="margin-top: 10px; display: none">
-                                                                        <label style="font-weight: bold; color: grey" for="nombres">Presion de llanatas<br/>
-                                                                            <select class="select-css" name='presionLlantas' id="presionLlantas">
-                                                                                <option value="0">NO</option>
-                                                                                <option value="1">SI</option>
-                                                                            </select>
-                                                                    </div>
-                                                                    <div class="col-md-3 col-lg-3 col-sm-3" >
-                                                                        <label style="font-weight: bold; color: black"></label>
-                                                                        <input type="hidden" id="tipoinformeval" name="tipoinformeval">
-                                                                        <input type="submit" name="generar"  class="btn btn-accent btn-block" onclick="showSuccess('Generando el informe, por favor espere.')" style="background-color: #393185;border-radius: 40px 40px 40px 40px; width: 180px"  value="Generar">
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        </div>
-
-
-
-        <!-- MAIN CONTENT AREA ENDS -->
-    </section>
-</section>
-<!-- END CONTENT -->
-<?php $this->load->view('./footer'); ?>
-
-<script type="text/javascript">
-    $('#presionLlantas').change(function () {
-        var presionLlantas = $('#presionLlantas option:selected').attr('value');
-        if (presionLlantas == 1) {
-            Swal.fire({
-                icon: 'info',
-                title: 'Información',
-                html: '<div style="font-size: 15px">Usted selecciono la consulta con las presiones de inflado, se le recomienda no realizar la consulta cuando el cda este operando.</div>',
-                //footer: '<a href="">Why do I have this issue?</a>'
-            })
-        }
-    })
-    $('#tipoinforme').change(function () {
-        var tipoinforme = $('#tipoinforme option:selected').attr('value');
-        $('#tipoinformeval').val(tipoinforme);
-        document.getElementById("div-informe-sonmometro").style.display = '';
-        switch (tipoinforme) {
-            case '1':
-                $('#nombre-informe').html('Informe sonometro');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '2':
-                $('#nombre-informe').html('Informe gases');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '3':
-                $('#nombre-informe').html('Informe luces');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '4':
-                $('#nombre-informe').html('Informe frenos');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '5':
-                $('#nombre-informe').html('Informe suspension');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '6':
-                $('#nombre-informe').html('Informe alineador');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '7':
-                $('#nombre-informe').html('Informe taximetro');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            case '8':
-                $('#nombre-informe').html('Informe visual');
-                document.getElementById("divPresion").style.display = "";
-                break;
-            case '9':
-                $('#nombre-informe').html('Informe termohigrometro');
-                document.getElementById("divPresion").style.display = "none";
-                break;
-            default:
-
-                break;
-        }
-    });
-</script>
+<?php //004fb
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
